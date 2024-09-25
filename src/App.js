@@ -52,7 +52,7 @@ function App() {
           <option value="noite">Noite</option>
         </select>
 
-        <label>O que estudar :</label>
+        <label>O que estudar:</label>
         <input
           type="text"
           value={atividade}
@@ -60,7 +60,6 @@ function App() {
           placeholder="Ex: Matemática"
         />
         <button onClick={adicionarAtividade}>Adicionar Estudo</button>
-      
       </div>
 
       {diasDaSemana.map(dia => (
@@ -77,8 +76,6 @@ function App() {
           </div>
         </div>
       ))}
-      
-      
     </div>
   );
 }
