@@ -55,10 +55,11 @@ input[type="text"],
 select {
   width: calc(100% - 110px);
   padding: 8px;
-  border: 1px solid #d9534f; /* Bordas do campo de texto em vermelho */
+  border: 1px solid #03a138; /* Bordas do campo de texto */
   border-radius: 5px;
-  background-color: #ffe4e1; /* Fundo suave no campo de entrada */
+  background-color: #b4afaf; /* Fundo suave no campo de entrada */
 }
+
 
 input[type="text"]:focus,
 select:focus {
