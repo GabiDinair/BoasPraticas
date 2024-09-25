@@ -12,9 +12,10 @@ body {
   margin: 50px auto;
   padding: 20px;
   border-radius: 10px;
-  background-color: #fff; /* Fundo branco */
+  background-color: #a5dbc5; /* Fundo verde mais escuro */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 
 h1 {
   color: #ff0000; /* Vermelho vibrante para o título principal */
