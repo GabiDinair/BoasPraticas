@@ -1,0 +1,96 @@
+body {
+  background-color: #f0f0f0; /* Cinza claro */
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff; /* Fundo branco */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #ff0000; /* Vermelho vibrante para o título principal */
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 2px solid #ff4500; /* Bordas em vermelho */
+  border-radius: 5px;
+  background-color: #ffe6e6; /* Fundo suave em tom de vermelho claro */
+}
+
+h2 {
+  color: #ff4500; /* Laranja vibrante para os dias da semana */
+  margin-bottom: 10px;
+}
+
+.periodo-container {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ff4500; /* Bordas em vermelho */
+  border-radius: 5px;
+  background-color: #ffcccb; /* Fundo suave em tom de vermelho */
+  transition: background-color 0.3s ease; /* Transição suave ao mudar de cor */
+}
+
+/* Estilo para atividades concluídas */
+.periodo-container.completed {
+  background-color: #d4edda; /* Fundo verde claro para atividades concluídas */
+  border-color: #c3e6cb; /* Bordas verdes */
+}
+
+/* Estilo dos rótulos */
+label {
+  display: inline-block;
+  width: 100px;
+  color: #d9534f; /* Vermelho escuro para os rótulos */
+}
+
+input[type="text"],
+select {
+  width: calc(100% - 110px);
+  padding: 8px;
+  border: 1px solid #d9534f; /* Bordas do campo de texto em vermelho */
+  border-radius: 5px;
+  background-color: #ffe4e1; /* Fundo suave no campo de entrada */
+}
+
+input[type="text"]:focus,
+select:focus {
+  border-color: #ff6347; /* Realce da borda ao focar */
+  outline: none;
+}
+
+button {
+  background-color: #ff4500; /* Vermelho */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+button:hover {
+  background-color: #dc143c; /* Vermelho escuro */
+}
+
+/* Estilo para botão de concluir */
+button.completed {
+  background-color: #28a745; /* Verde para o botão de marcar como concluída */
+}
+
+button.completed:hover {
+  background-color: #218838; /* Verde escuro ao passar o mouse */
+}
