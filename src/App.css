@@ -18,10 +18,11 @@ body {
 
 
 h1 {
-  color: #ff0000; /* Vermelho vibrante para o título principal */
+  color: #03a138; /* verde vibrante para o título principal */
   text-align: center;
   margin-bottom: 30px;
 }
+
 
 .input-container {
   margin-bottom: 20px;
