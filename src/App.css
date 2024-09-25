@@ -31,9 +31,10 @@ h1 {
 
 
 h2 {
-  color: #ff4500; /* Laranja vibrante para os dias da semana */
+  color: #008f56; /* verde para os dias da semana */
   margin-bottom: 10px;
 }
+
 
 .periodo-container {
   margin-bottom: 10px;
