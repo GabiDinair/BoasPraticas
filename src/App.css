@@ -39,10 +39,11 @@ h2 {
 .periodo-container {
   margin-bottom: 10px;
   padding: 5px;
-  border: 1px solid #ff4500; /* Bordas em vermelho */
+  border: 1px solid #03a138; /* Bordas em verde */
   border-radius: 5px;
-  background-color: #ffcccb; /* Fundo suave em tom de vermelho */
+  background-color: #dcfaee; /* Fundo suave em tom verde claro */
 }
+
 
 label {
   display: inline-block;
